@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>i dont what to do</title>
+</head>
+<body>
+
+    <button onclick="doSomething()" style="background-color: #333333;color:#03f4fc;border-radius:10px;width: 100px;height: 100px;">click me</button>
+    <p id="test">click this</p>
+
+    <script>
+        let words = ["nigger","oh shit wrong one", "you are the best guy in the world","bye"];
+        let index = 0;
+
+        function doSomething() {
+            if (index >= words.length) {
+                return;
+            }
+         document.getElementById("test").innerHTML = words[index];
+            
+         index++;
+        }
+    </script>
+
+</body>
+</html>
